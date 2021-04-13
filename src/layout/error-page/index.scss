@@ -1,0 +1,26 @@
+.page-error {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10% 0;
+  img {
+    margin-bottom: 18px;
+    width: 500px;
+  }
+  .error {
+    color: #a6acb5;
+    font-size: 24px;
+  }
+  .el-button {
+    padding: 10px 36px;
+  }
+  .el-button .back{
+    color: #fff;
+    text-decoration: none;
+  }
+  .el-button + .el-button {
+    margin-left: 36px;
+  }
+}

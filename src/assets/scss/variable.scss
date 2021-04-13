@@ -1,0 +1,11 @@
+$sidebarWidth: 210;
+$menuBackGround: #304156;
+$textColor: #fff;
+$activeTextColor: #ffd04b;
+
+:export {
+  menuBgColor: $menuBackGround;
+  textColor: $textColor;
+  actTextColor: $activeTextColor;
+  sidebarWidth: $sidebarWidth;
+}

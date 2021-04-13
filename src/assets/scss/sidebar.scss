@@ -1,0 +1,41 @@
+#app {
+  // sidebar
+  .sidebar-container {
+    transition: width 0.28s;
+    width: 210px;
+    background-color: #304156;
+    height: 100%;
+    position: fixed;
+    font-size: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1001;
+    overflow: hidden;
+    border-right: 0;
+    .horizontal-collapse-transition {
+      transition: 0s width ease-in-out, 0s padding-left ease-in-out,
+        0s padding-right ease-in-out;
+    }
+    .scrollbar-wrapper {
+      overflow-x: hidden;
+    }
+    .el-menu {
+      border: none;
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .openSidebar{
+    width: 210px !important;
+  }
+  .hideSidebar {
+    width: 54px !important;
+    .sidebar-container {
+      width: 54px !important;
+    }
+    .main-container {
+      margin-left: 54px;
+    }
+  }
+}
